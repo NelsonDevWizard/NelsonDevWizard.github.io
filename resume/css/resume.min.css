@@ -108,6 +108,9 @@ section.resume-section{
     .bg-primary{
         background-color:#130800!important
     }
+    .mobile-photo-display{
+        display: none;
+    }
     .text-primary{
         color:#bd5d38!important
     }
@@ -116,4 +119,15 @@ section.resume-section{
     }
     a:active,a:focus,a:hover{
         color:#824027
+    }
+
+    @media (max-width:800px){
+        .mobile-photo-display{
+            display: block;
+            width: 30%;
+            border-radius: 100%;
+            margin-left: 6%;
+            /* transform: scale(0.3); */
+            /* width: fit-content; */
+        }
     }
