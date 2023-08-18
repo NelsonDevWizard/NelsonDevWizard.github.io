@@ -7,9 +7,9 @@ body{
 @media (min-width:992px){
     body{padding-top:0;padding-left:17rem}
 }
-.mobile-photo-display{
+/* .mobile-photo-display{
     display: none;
-}
+} */
 h1,h2,h3,h4,h5,h6{
     font-family:'Saira Extra Condensed',serif;font-weight:700;
     text-transform:uppercase;color:#343a40
@@ -125,13 +125,12 @@ section.resume-section{
         color:#824027
     }
 
-    @media (max-width:550px){
+    /* @media (max-width:550px){
         .mobile-photo-display{
             display: block;
             width: 30%;
             border-radius: 100%;
             margin-left: 6%;
             transform: scale(0.1);
-            /* width: fit-content; */
         }
-    }
+    } */
