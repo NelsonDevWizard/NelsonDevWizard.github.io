@@ -3,8 +3,12 @@ body{
     padding-top:54px;
     color:#868e96
 }
+
 @media (min-width:992px){
     body{padding-top:0;padding-left:17rem}
+}
+.mobile-photo-display{
+    display: none;
 }
 h1,h2,h3,h4,h5,h6{
     font-family:'Saira Extra Condensed',serif;font-weight:700;
@@ -121,7 +125,7 @@ section.resume-section{
         color:#824027
     }
 
-    @media (max-width:800px){
+    @media (max-width:550px){
         .mobile-photo-display{
             display: block;
             width: 30%;
